@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  padding: 25px 0 25px 0;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+  }
+}
