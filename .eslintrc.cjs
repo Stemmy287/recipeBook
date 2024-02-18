@@ -19,7 +19,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'import/prefer-default-export': ["off"],
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": false, "optionalDependencies": false, "peerDependencies": false}]
+    'import/prefer-default-export': ['off'],
+    'import/no-extraneous-dependencies': ['error', {'devDependencies': false, 'optionalDependencies': false, 'peerDependencies': false}],
+    'max-len': ['error', { 'code': 130 }]
   },
 }
