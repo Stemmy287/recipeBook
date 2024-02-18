@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import './variables.module.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -12,7 +13,7 @@ body {
   margin: 0 auto;
   width: 1280px;
   color: $dark;
-  background: $blue-light;
+  background: $light;
 }
 
 h1, h2, h3, h4, h5, h6 {

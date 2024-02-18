@@ -1,0 +1,17 @@
+@import '../../../app/styles//variables.module.scss';
+@import '../../../app/styles//mixins.scss';
+
+.button {
+  background: $blue;
+  border: 0;
+  border-radius: 20px;
+  padding: 12px 25px;
+  @include text(400, 14px, normal, $light);
+  box-shadow: 3px 14px 31px -13px $blue;
+  cursor: pointer;
+
+  &:hover {
+    background: $blue-darker;
+    transition: .5s;
+  }
+}

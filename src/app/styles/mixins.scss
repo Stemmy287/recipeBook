@@ -1,0 +1,20 @@
+@import "./variables.module.scss";
+
+@mixin text($fontWeight, $fontSize, $lineHeight: normal, $color: $dark) {
+
+  @if $lineHeight == normal {
+    line-height: normal;
+  } @else {
+    line-height: $lineHeight ;
+  }
+
+  @if ($color == #201c1b) {
+    color: #201c1b
+  } @else {
+    color: $color;
+  }
+
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
